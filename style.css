@@ -1,3 +1,21 @@
-p {
-    
+body {
+ background: #e8e8e8;
+
 }
+.photo {
+    background: white;    
+}
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+h1, h4, p {
+    text-align: center;
+}
+ul {
+    line-height: 1.5em;
+}
+
