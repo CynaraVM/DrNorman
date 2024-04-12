@@ -1,21 +1,35 @@
 body {
  background: #e8e8e8;
-
 }
+/* Fond d'ecran pour la photo et sa legende */
 .photo {
     background: white;    
 }
-.center {
 
+/* Aligner l'image au centre */
+.center { 
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
-h1, h4, p {
+
+/* Aligner les titres au centre */ 
+.container, h1, h4{
     text-align: center;
-}
-ul {
+  }
+
+p{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* Aligner les items de la list à gauche */  
+.myUL {
+    display: inline-block;
+    text-align: left;
+    font-size: smaller;
     line-height: 1.5em;
-}
+  }
 
