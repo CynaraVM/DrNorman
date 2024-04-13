@@ -5,13 +5,17 @@ body {
 .photo {
     background: white;    
 }
-
+figcaption {
+  font-style: italic;
+  padding: 6px;
+  text-align: center;
+}
 /* Aligner l'image au centre */
 .center { 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
   }
 
 /* Aligner les titres au centre */ 
